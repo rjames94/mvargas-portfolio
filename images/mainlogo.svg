@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45.125mm" height="45.747mm" version="1.1" viewBox="0 0 45.125 45.747" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient2848" x1="9.0714" x2="50.838" y1="47.153" y2="47.153" gradientTransform="matrix(1.0318 0 0 .97608 -8.346 -23.151)" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="matrix(.96649 0 0 1.0347 -51.025 -40.889)" aria-label="M ">
+  <path d="m59.364 77.016 4.2121-29.646h0.48369l12.052 24.326 11.931-24.326h0.48369l4.2525 29.646h-2.9223l-2.9021-21.202-10.48 21.202h-0.74569l-10.621-21.363-2.882 21.363z" stroke-width="1.036"/>
+ </g>
+ <g transform="matrix(1.1022 0 0 .90729 -51.025 -40.889)" aria-label="V">
+  <path d="m77.193 48.912-8.4026 23.084h-4.0928l-8.4026-23.084h3.2866l7.2399 20.309 7.2399-20.309z" stroke-width=".79471"/>
+ </g>
+ <ellipse cx="22.562" cy="22.874" rx="21.548" ry="21.859" fill="none" stroke="url(#linearGradient2848)" stroke-width="2.0286"/>
+</svg>
