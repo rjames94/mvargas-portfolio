@@ -1,121 +1,36 @@
-<html>
-  <head>
-    <meta
-      name="viewport"
-      content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"
-    />
-
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"
-    ></script>
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link href="/css/main.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"
-    ></script>
-  </head>
-  <body>
-    <aside>
-      <a>
-        <svg
-          version="1.1"
-          id="nav-btn"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          x="0px"
-          y="0px"
-          viewBox="0 0 512 512"
-          enable-background="new 0 0 512 512"
-          xml:space="preserve"
-        >
-          <path
-            id="list-view-icon"
-            d="M462,108.857H50V50h412V108.857z M462,167.714H50v58.857h412V167.714z M462,285.429H50v58.857h412
-       V285.429z M462,403.143H50V462h412V403.143z"
-          />
-        </svg>
-      </a>
-      <h1>MARIANA VARGAS</h1>
-
-      <nav>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li id="products">Portfolio</li>
-          <li><a href="#">Portrait</a></li>
-          <li><a href="wallpapers.html">Landscape</a></li>
-          <li><a href="#">Food</a></li>
-          <li><a href="#">Product</a></li>
-        </ul>
-      </nav>
-
-      <div class="vertical-line"></div>
-    </aside>
-    <div class="bio">
-      <a href="#" class="photo">
-        <h2>Mariana Vargas</h2>
-        <img src="/images/biopic.jpg" />
-        <div class="glow-wrap">
-          <i class="glow"></i>
-        </div>
-      </a>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam natus qui
-        similique impedit? Adipisci debitis perspiciatis soluta, autem mollitia
-        harum? Cupiditate voluptatum totam, odio voluptatem incidunt laudantium
-        voluptatibus minus illum!
-      </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html" class="logo">MARIANA JAMES</a>
+    <div class="topnav" id="myTopnav">
+        <a href="/pages/form-page.html">CONTACT</a>
+        <a href=".pages/film.html">FILM</a>
+        <a href=".pages/maternity.html">MATERNITY</a>
+        <a href=".pages/wedding.html">WEDDING</a>
+        <a href=".pages/portrait.html">PORTRAIT</a>
+        <a href="Home" class="active">ABOUT</a>  
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+          </a>
     </div>
-    <script>
-      $("#nav-btn").click(function () {
-        $("nav").toggle("slow");
-      });
-    </script>
-
-    <!-- Page content -->
-    <div class="main">
-      <div
-        id="nanoGallery"
-        data-nanogallery2='{
-        "flickrAPIKey": "7a9ec13d1f4c90cbbd9d042a9ffc2093",
-        "userID": "193116211@N02",
-        "kind": "flickr",
-        "albumList2": [
-          "72157719309341101",
-          "72157719358613380",
-          "72157719358609180",
-          "72157719358603750"
-        ],
-        "thumbnailWidth": "auto",
-        "thumbnailHeight": "300",
-        "thumbnailBorderVertical": 0,
-        "thumbnailBorderHorizontal": 0,
-        "thumbnailDisplayTransition": "slideDown2",
-        "thumbnailLabel": {
-          "position": "overImageOnMiddle",
-          "display": false
-        },
-        "thumbnailHoverEffect2": "imageScaleIn80",
-        "thumbnailAlignment": "center",
-        "gallerySorting": "random",
-        "thumbnailOpenImage": true
-      }'
-      ></div>
-    </div>
-  </body>
+  </div>
+  <div class="about">
+  <img src="/images/biopic.jpg" alt="Photo of Mariana" class="aboutpic">
+  <p class="abouttxt">I'm Mariana, and photography and film have been a central part of my life since I was teenager.
+I'm originally from Colombia and moved to the states shortly after receiving my Bachelors in Fine Arts. There I worked as an Au Pair with the main focus on learning English. I also enjoyed traveling around the country, experiencing American culture, and meeting new friends. Just as my time there was coming to an end I met the love of my life, a year later we ended up getting married and had a beautiful boy.
+Photography and Film has been passion of mine since I was little and I couldn't imagine any other career. I specialize in Wedding, Maternity and Portraits, as well as Lifestyle and Product photography. 
+For me, photography is a way of documenting the world and capturing history, even in moments that might seem small and insignificant on the surface.
+I always spend time getting to know my clients before we work together. I want to make sure that I know you and your goals and wishes, so I can deliver exactly the result you want and need.
+I provide professional photography services to clients in the DMV area, and other nearby areas. To find out more about how we can work together, <a href=".pages/contact.html">get in touch.</a></p>
+</div>
+<script src="/scripts/myscripts.js"></script>
+</body>
 </html>
