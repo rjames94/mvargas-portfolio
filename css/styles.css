@@ -3,12 +3,10 @@
     margin: 2% 10%;
  }
 
- .logo {
+.logo {
     text-decoration: none;
     font-size: x-large;
     color: #BB8B6D;
-    text-align: center;
-    padding: 14px 16px;
     float: left;
     display: block;
  }
@@ -60,9 +58,8 @@
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
+      position: relative;
+      float: right;
     }
     .topnav.responsive a {
       float: none;
