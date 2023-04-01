@@ -1,116 +1,125 @@
  html {
-    background-color: #F5EEEE;
-    margin: 2% 10%;
+   background-color: #F5EEEE;
+   font-family: 'Merriweather', serif;
+   margin: 2% 10%;
  }
 
-.logo {
-    text-decoration: none;
-    font-size: x-large;
-    color: #BB8B6D;
-    float: left;
-    display: block;
+ .logo {
+   text-decoration: none;
+   font-size: x-large;
+   color: #BB8B6D;
+   float: left;
+   display: block;
+   padding-top: 10px;
  }
- 
- /* Add a black background color to the top navigation */
- .topnav {
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: right;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    opacity: 0.5;
-    transition: 0.3s;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    color: black;
-    opacity: 1
-  }
-  
-  /* Add an active class to highlight the current page */
-  .topnav a.active {
-    opacity: 1
-  }
-  
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
-    display: none;
-  } 
 
-   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive a.icon {
-      position: relative;
-      float: right;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  } 
+ /* Style the links inside the navigation bar */
+ .topnav a {
+   float: right;
+   display: block;
+   color: gray;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
 
-  .about {
-    padding: 5%;
-  }
+ /* Change the color of links on hover */
+ .topnav .active,
+ .topnav a:hover {
+   transition: 0.5s;
+   color: black;
+ }
 
-  .aboutpic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+ /* Hide the link that should open and close the topnav on small screens */
+ .topnav .icon {
+   display: none;
+ }
 
-  .abouttxt {
-    color:#BB8B6D;
-    font-size: larger;
-    letter-spacing: 1px;
-    text-align: center;
-    padding: 5% 20%;
-  }
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+ @media screen and (max-width: 1105px) {
+   .topnav a:not(:first-child) {
+     display: none;
+   }
 
-  .abouttxt a {
-    color:#BB8B6D;
-  }
+   .topnav a.icon {
+     float: right;
+     display: block;
+   }
+ }
 
-  header {
-    font-size: 60px;
-    font-weight: bold;
-    color: #BB8B6D;
-    
-    padding: 5% 25%;
-  }
+ /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+ @media screen and (max-width: 1105px) {
+   .topnav.responsive {
+     position: relative;
+   }
 
-  .contactform {
-    margin: 0 auto; 
-    width:250px;
-  }
+   .topnav.responsive a.icon {
+     right: 0;
+     top: 0;
+   }
 
-  .contactform label,
-  .contactform input,
-  .contactform textarea {
-    width: 400px;
-    font-size: large;
-  }
+   .topnav.responsive a {
+     float: none;
+     display: block;
+     text-align: right;
+   }
+ }
 
-  .contactform div {
-    padding: 2% 0%;
-  }
+ .about {
+   padding: 5% 20%;
+ }
+
+ .aboutpic {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   padding-top: 10px;
+ }
+
+ .abouttxt {
+   padding-top: 30px;
+ }
+
+ .abouttxt p {
+   color: #BB8B6D;
+   font-size: larger;
+   letter-spacing: 1px;
+   text-align: center;
+ }
+
+ .abouttxt a {
+   color: #BB8B6D;
+ }
+
+ header {
+   font-size: 60px;
+   font-weight: bold;
+   color: #BB8B6D;
+
+   padding: 5% 25%;
+ }
+
+ .contactform {
+   margin: 0 auto;
+   width: 408px;
+   font-weight: bold;
+ }
+
+ .contactform label,
+ .contactform input,
+ .contactform textarea {
+   width: 400px;
+   font-size: large;
+ }
+
+ input[value=Submit] {
+   height: 40px;
+   width: 110px;
+   font-size: medium;
+   font-weight: bold;
+ }
+
+ .contactform div {
+   padding: 2% 0%;
+ }
